@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>CashEasy</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="shortcut icon" href="images/favicon/favicon-32x32.png" type="image/x-icon">
+      <!-- fontawesome -->
+      <script src="https://kit.fontawesome.com/49f031506e.js" crossorigin="anonymous"></script>
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="header_information">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item active">
+                                    <a class="nav-link" href="about.html"> Nosotros  </a>
+                                 </li> 
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="clients.html">Clientes</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="ourwork.html">Servicios</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contactanos</a>
+                                 </li>
+                              </ul>
+                              <div class="sign_btn"><a href="Login.php">Ingresar</a></div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="first-slide" src="images/banner fac.png" alt="First slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>Factura</span> A Tus Clientes</h1>
+                     <a href="singup.php">Registrarse</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="second-slide" src="images/banner inv.png" alt="Second slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>Gestiona</span> Tu Inventario</h1>
+                     <a href="singup.php">Registrarse</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="third-slide" src="images/banner comp.png" alt="Third slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>Gestiona</span> Tus Compras</h1>
+                     <a href="singup.php">Registrarse</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="third-slide" src="images/banner cli.png" alt="four slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>Gestiona</span> Tus Clientes</h1>
+                     <a href="singup.php">Registrarse</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="third-slide" src="images/banner inf.png" alt="five slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>Gestiona</span> Tus Reportes</h1>
+                     <a href="singup.php">Registrarse</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <!-- end banner -->
+      <!-- about -->
+      <div id="about"  class="about">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>Nuestro Sistema</h2>
+                     <span></span>
+                     <p>CashEasy es un sistema de punto de venta (POS) innovador y fácil de usar, diseñado para satisfacer las necesidades de los negocios pequeños. Con "CashEasy", puede gestionar todas sus operaciones comerciales de manera eficiente y efectiva. </p>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="images/about_img.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      <!-- mobile -->
+      <div id="mobile"  class="mobile">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="mobile_img">
+                     <figure><img src="images/mobile.png" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>Adaptabilidad de nuestro Sistema POS</h2>
+                     <span></span>
+                     <p>"CashEasy" es un sistema flexible y versátil que se adapta a las necesidades específicas de cualquier negocio pequeño. Con sus múltiples opciones de configuración y su capacidad para personalizarse según los requerimientos del usuario, "CashEasy" puede integrarse fácilmente en diversas industrias, desde retail hasta gastronomía. Ya sea que necesite funciones avanzadas de gestión de inventarios, reportes detallados de ventas, o una interfaz amigable para el personal, "CashEasy" está diseñado para crecer y evolucionar con su negocio, asegurando que siempre tenga las herramientas adecuadas para el éxito. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end mobile -->
+      <!-- clients -->
+      <div class="clients">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 offset-md-3">
+                  <div class="titlepage">
+                     <h2>Nuestros Clientes</h2>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="clients_box">
+                     <p>"'CashEasy' ha transformado nuestra tienda. Es fácil de usar, eficiente y ha mejorado significativamente nuestra gestión de ventas e inventarios. ¡Altamente recomendable!"</p>
+                  </div>
+                  <div class="jonu">
+                     <img src="images/cross_img.png" alt="#"/>
+                     <h3>Isaac</h3>
+                     <strong>(Gerente Ventas)</strong>
+                     <a class="singup.php" href="singup.php">Registrarse</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end clients -->
+      <!--  contact -->
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contactanos</h2>
+                  </div>
+               </div>
+               <div class="col-md-6 offset-md-3">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Nombre completo"" type="type" name="Full Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Numero Telefono" type="type" name="Phone Number"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Correo" type="type" name="Email">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="contactus" placeholder="Mensaje" type="type" Message="Name">Mensaje </textarea>
+                        </div>
+                        <div class="col-sm-12">
+                           <button class="send_btn">Enviar</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row border-top">
+                  <div class="col-md-6 padding_bottom1   ">
+                     <h3>Suscribirse Ahora</h3>
+                     <form class="footer_form">
+                        <input class="enter" placeholder="Ingresa tu correo" type="type" name="Ingresa tu correo">
+                        <button class="submit">Enviar</button>
+                     </form>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="row">
+                        <div class="col-md-5 offset-md-1 padding_bottom1">
+                           <h3>Contactos</h3>
+                           <ul class="cont">
+                              <li>3146675890 </li>
+                           </ul>
+                        </div>
+                        <div class="col-md-5 offset-md-1">
+                           <h3>Contactos</h3>
+                           <ul class="cont">
+                              <li>jose-luis-hernandez-correa@hotmail.com </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2024 All Rights Reserved. <a href="https://html.design/"> SENA-Jose Luis Hernandez Correa</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+    
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>
